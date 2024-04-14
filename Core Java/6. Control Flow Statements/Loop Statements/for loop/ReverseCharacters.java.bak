@@ -1,0 +1,12 @@
+class ReverseCharacters 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Reverse Characters: ");
+
+		for(char ch='Z'; ch>='A'; ch--)
+		{
+			System.out.println(ch);
+		}
+	}
+}

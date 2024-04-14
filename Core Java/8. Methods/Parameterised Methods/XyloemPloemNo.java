@@ -1,0 +1,25 @@
+class XyloemPloemNo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(isXyloemPloem(12225));
+	}
+
+	public static boolean isXyloemPloem(int num)
+	{
+		int sum1 = num % 10;
+		num /= 10;
+
+		int sum2 = 0;
+		while (num > 9)
+		{
+			int last = num % 10;
+			sum2 += last;
+			num /= 10;
+		}
+
+		sum1 += num;
+
+		return sum1 == sum2;
+	}
+}

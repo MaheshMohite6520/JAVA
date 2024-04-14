@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+class Swap4 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter first number: ");
+		int first = sc.nextInt();
+
+		System.out.print("Enter second number: ");
+		int second = sc.nextInt();
+
+		// by using addition and subtraction operator
+		// first = first + second;
+		// second = first - second;
+		// first = first - second;
+
+		// by using addition and subtraction operator
+		first = first * second;
+		second = first / second;
+		first = first / second;
+
+		System.out.println("First number: " + first);
+		System.out.println("Second number: " + second);
+	}
+}

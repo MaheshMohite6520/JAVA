@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+class Number6 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter number of rows: ");
+		int n = sc.nextInt();
+
+		int odd = 1, even = 7, ans;
+
+		for (int  i = 0; i < n; i++)
+		{
+			ans = i;
+			System.out.print(ans);
+			
+			for (int j = 0; j < n; j++)
+			{
+				if (j % 2 == 0)
+				{
+					ans += odd;
+					System.out.print(ans + " ");
+				}
+				else
+				{
+					ans += even;
+					System.out.print(ans + " ");
+				}
+			}
+
+			System.out.println();
+
+			odd += 2;
+			even += 2;
+		}
+	}
+}

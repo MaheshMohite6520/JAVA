@@ -1,0 +1,181 @@
+import java.util.Scanner;
+
+class Switch5 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("*******Welcome to calculator********");
+
+		System.out.println();
+
+		System.out.println("Select the below option");
+		System.out.println("Addition (+)");
+		System.out.println("Subtraction (-)");
+		System.out.println("Multiplication (*)");
+		System.out.println("Division (/)");
+		System.out.println("Modulus (%)");
+
+		char ch = sc.next().charAt(0);
+
+		switch(ch)
+		{
+			case '+' :
+			{
+				System.out.print("Enter first number: ");
+				double num1  = sc.nextDouble();
+
+				System.out.print("Enter second number: ");
+				double num2  = sc.nextDouble();
+
+				System.out.println("How don you wnat your answer: ");
+				System.out.println("1. Whole Number ");
+				System.out.println("2. Decimal Number ");
+
+				switch(sc.nextInt())
+				{
+					case 1 :
+					{
+						int ans = (int) (num1 + num2);
+						System.out.print("The sum of " + num1 + " and " + num2 + " is " + (int)ans);
+						break;
+					}
+					case 2 :
+					{
+						double ans = num1 + num2;
+						System.out.print("The sum of " + num1 + " and " + num2 + " is " + ans);
+						break;
+					}
+				}
+				break;
+			}
+
+			case '-' :
+			{
+				System.out.print("Enter first number: ");
+				double num1  = sc.nextDouble();
+
+				System.out.print("Enter second number: ");
+				double num2  = sc.nextDouble();
+
+				System.out.println("How don you wnat your answer: ");
+				System.out.println("1. Whole Number ");
+				System.out.println("2. Decimal Number ");
+
+				switch(sc.nextInt())
+				{
+					case 1 :
+					{
+						int ans = (int) (num1 - num2);
+						System.out.print("The subtraction of " + num1 + " and " + num2 + " is " + (int)ans);
+						break;
+					}
+					case 2 :
+					{
+						double ans = num1 - num2;
+						System.out.print("The subtraction of " + num1 + " and " + num2 + " is " + ans);
+						break;
+					}
+				}
+				break;
+			}
+
+			case '*' :
+			{
+				System.out.print("Enter first number: ");
+				double num1  = sc.nextDouble();
+
+				System.out.print("Enter second number: ");
+				double num2  = sc.nextDouble();
+
+				System.out.println("How don you wnat your answer: ");
+				System.out.println("1. Whole Number ");
+				System.out.println("2. Decimal Number ");
+
+				switch(sc.nextInt())
+				{
+					case 1 :
+					{
+						int ans = (int) (num1 * num2);
+						System.out.print("The multiplication of " + num1 + " and " + num2 + " is " + (int)ans);
+						break;
+					}
+					case 2 :
+					{
+						double ans = num1 * num2;
+						System.out.print("The multiplication of " + num1 + " and " + num2 + " is " + ans);
+						break;
+					}
+				}
+				break;
+			}
+
+			case '/' :
+			{
+				System.out.print("Enter first number: ");
+				double num1  = sc.nextDouble();
+
+				System.out.print("Enter second number: ");
+				double num2  = sc.nextDouble();
+
+				System.out.println("How don you wnat your answer: ");
+				System.out.println("1. Whole Number ");
+				System.out.println("2. Decimal Number ");
+
+				switch(sc.nextInt())
+				{
+					case 1 :
+					{
+						int ans = (int) (num1 / num2);
+						System.out.print("The division of " + num1 + " and " + num2 + " is " + (int)ans);
+						break;
+					}
+					case 2 :
+					{
+						double ans = num1 / num2;
+						System.out.print("The division of " + num1 + " and " + num2 + " is " + ans);
+						break;
+					}
+				}
+				break;
+			}
+
+			case '%' :
+			{
+				System.out.print("Enter first number: ");
+				double num1  = sc.nextDouble();
+
+				System.out.print("Enter second number: ");
+				double num2  = sc.nextDouble();
+
+				System.out.println("How don you wnat your answer: ");
+				System.out.println("1. Whole Number ");
+				System.out.println("2. Decimal Number ");
+
+				switch(sc.nextInt())
+				{
+					case 1 :
+					{
+						int ans = (int) (num1 % num2);
+						System.out.print("The sum of " + num1 + " and " + num2 + " is " + (int)ans);
+						break;
+					}
+					case 2 :
+					{
+						double ans = num1 % num2;
+						System.out.print("The sum of " + num1 + " and " + num2 + " is " + ans);
+						break;
+					}
+				}
+				break;
+			}
+
+			default :
+			{
+				System.out.println("Operation not specified");
+			}
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+class EvilNo 
+{
+	public static void main(String[] args)
+	{
+		System.out.println(Utility.isEvil(15));
+	}
+}

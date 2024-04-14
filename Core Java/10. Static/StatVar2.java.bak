@@ -1,0 +1,29 @@
+class StatVar2 
+{
+	static String s;
+
+	public static void main(String[] args) 
+	{
+		System.out.println(s);
+
+		test();
+
+		System.out.println(s);
+
+		s = "PySpiders";
+		System.out.println(s);
+
+		System.out.println(StatVar2.s);
+	}
+
+	public static void test()
+	{
+		System.out.println(s);
+
+		String s = "QSpiders";
+		System.out.println(s);
+
+		s = "JSpiders";
+		System.out.println(s);
+	}
+}

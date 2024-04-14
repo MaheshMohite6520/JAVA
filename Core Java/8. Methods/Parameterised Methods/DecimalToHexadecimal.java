@@ -1,0 +1,28 @@
+class DecimalToHexadecimal 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(decToHex(1224233));
+	}
+
+	public static String decToHex(int num)
+	{
+		String ans = "";
+
+		while (num != 0)
+		{
+			int last = num % 16;
+			if (last <= 9 && last >= 0)
+			{
+				ans = last + ans;
+			}
+			else if (last > 9 && last <= 15)
+			{
+				ans = (char)(55 + last) + ans;
+			}
+			num /= 16;
+		}
+
+		return ans;
+	}
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+class ProductOfFactor 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+
+		int denominator = 1;
+		int product = 1;
+
+		while(denominator <= num/2)
+		{
+			if(num % denominator == 0)
+			{
+				product *= denominator;
+			}
+			denominator++;
+
+		}
+
+		System.out.println("Factors product of number " + num + " is: " + product);
+	}
+}

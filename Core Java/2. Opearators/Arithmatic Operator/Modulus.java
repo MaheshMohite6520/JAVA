@@ -1,0 +1,56 @@
+class Modulus
+{
+	public static void main(String[] args) 
+	{
+		byte a = 10;
+		byte b = 20;
+		int result1 = a % b;
+		System.out.println("byte % byte = (int) " + result1);
+
+		short c = 20;
+		short d = 3;
+		int result2 = c % d;
+		System.out.println("short % short = (int) " + result2);
+
+		int e = 50;
+		int f = 8;
+		int result3 = e % f;
+		System.out.println("int % int = (int) " + result3);
+
+		char g = 'A';
+		char h = 'z';
+		int result4 = g % h;
+		System.out.println("char % char = (int) " + result4);
+
+		long i = 500l;
+		long j = 100l;
+		long result5 = i % j;
+		System.out.println("long % long = (long) " + result5);
+
+		float k = 23.5f;
+		float l = 2.5f;
+		float result6 = k % l;
+		System.out.println("float % float = (float) " + result6);
+
+		double m = 100.100;
+		double n = 10.10;
+		double result7 = m % n;
+		System.out.println("double % double = (double) " + result7);
+
+
+		// we can't perform modulus operation on string and boolean
+
+		/*
+		String o = "Operators: ";		// Compile Time Error
+		String p = "Addition";
+		String result8 = o % p;
+		System.out.println(result8);
+
+
+		boolean q = true;				// Compile Time Error
+		boolean r = true;
+		boolean result9 = q % r;
+		System.out.println(result9);
+		*/
+	}
+}

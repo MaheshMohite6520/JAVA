@@ -1,0 +1,12 @@
+class AsciiCharacter 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Ascii Characters: ");
+
+		for(int ascii=0; ascii<=127; ascii++)
+		{
+			System.out.println(ascii + ". " + (char)ascii);
+		}
+	}
+}

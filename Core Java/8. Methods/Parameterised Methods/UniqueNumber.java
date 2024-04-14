@@ -1,0 +1,29 @@
+class UniqueNumber 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(isUnique(12334));
+	}
+
+	public static boolean isUnique(int num)
+	{
+		while (num != 0)
+		{
+			int last = num % 10;
+			num /= 10;
+
+			int temp = num;
+			while (temp != 0)
+			{
+				if (last == temp%10)
+				{
+					return false;
+				}
+
+				temp /= 10;
+			}
+		}
+
+		return true;
+	}
+}

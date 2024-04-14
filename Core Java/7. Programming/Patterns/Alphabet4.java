@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+class Alphabet4 
+{
+	public static void main(String[] args) 
+	{
+		Scanner dc = new Scanner(System.in);
+
+		System.out.print("Enter number of rows: ");
+		int n = dc.nextInt();
+
+		char ch = 'a';
+
+		for (int i = 0; i < n; i++)
+		{
+			for (int j = 0; j < n; j++)
+			{
+				/*
+				if (j <= n-i-1)
+				{
+					System.out.print(ch++ + " ");
+				}
+				else
+				{
+					System.out.print(" " + " ");
+				}
+				*/
+
+				if (j < n-i-1)
+				{
+					System.out.print(" " + " ");
+				}
+				else
+				{
+					System.out.print(ch++ + " ");
+				}
+			}
+
+			System.out.println();
+		}
+	}
+}

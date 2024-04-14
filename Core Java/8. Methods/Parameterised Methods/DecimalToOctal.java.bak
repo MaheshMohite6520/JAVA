@@ -1,0 +1,21 @@
+class DecimalToOctal 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(decToOct(10));
+	}
+
+	public static String decToOct(int num)
+	{
+		String ans = "";
+
+		while (num != 0)
+		{
+			int last = num % 8;
+			ans = last + ans;
+			num /= 8;
+		}
+
+		return ans;
+	}
+}

@@ -1,0 +1,13 @@
+class AlternateNumbers 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Alternate Numbers from 1 to 500: ");
+
+		for(int start=1; start<=500; start++)
+		{
+			System.out.println(start);
+			start += 1;
+		}
+	}
+}

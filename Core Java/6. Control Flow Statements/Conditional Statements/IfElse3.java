@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+class IfElse3
+{
+	public static void main(String[] args) 
+	{
+		Scanner xc = new Scanner(System.in);
+		System.out.print("Enter the pin: ");
+
+		int pin = xc.nextInt();
+
+		if(pin == 1010)
+		{
+			System.out.println("Transaction successful.");
+		}
+		else
+		{
+			System.out.println("Enter the correct pin.");
+		}
+	}
+}

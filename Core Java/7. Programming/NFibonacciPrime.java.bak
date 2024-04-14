@@ -1,0 +1,57 @@
+// Chech N'th fibonacci number is prime or not
+
+import java.util.Scanner;
+
+class NFibonacciPrime
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+
+		int n1 = 0, n2 = 1, n3;
+
+		int i = 0;
+
+		while(i < num)
+		{
+			n3 = n1 + n2;
+			System.out.println(n1);
+
+			i++;
+
+			if (i == num)
+			{
+				break;
+			}
+
+			n1 = n2;
+			n2 = n3;	
+		}
+
+		// n2 is N'th Fibonacci Number
+		// Check n2 is Prime or not
+
+		int denominator = 2;
+
+		while(denominator < n2)
+		{
+			if(n2 % denominator == 0)
+			{
+				break;
+			}
+			denominator++;
+		}
+
+		if(n2 == denominator)
+		{
+			System.out.println(n2 + " is Prime number");
+		}
+		else
+		{
+			System.out.println(n2 + " is Not prime number");
+		}
+	}
+}

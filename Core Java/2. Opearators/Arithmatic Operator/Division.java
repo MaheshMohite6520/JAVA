@@ -1,0 +1,55 @@
+class Division 
+{
+	public static void main(String[] args) 
+	{
+		byte a = 20;
+		byte b = 10;
+		int result1 = a / b;
+		System.out.println("byte / byte = (int) " + result1);
+
+		short c = 50;
+		short d = 10;
+		int result2 = c / d;
+		System.out.println("short / short = (int) " + result2);
+
+		int e = 90;
+		int f = 30;
+		int result3 = e / f;
+		System.out.println("int / int = (int) " + result3);
+
+		char g = 'W';
+		char h = 'C';
+		int result4 = g / h;
+		// float result4 = g / h;
+		System.out.println("char / char = (int) " + result4);
+
+		long i = 500l;
+		long j = 100l;
+		long result5 = i / j;
+		//  result5 = i - j;
+		System.out.println("long / long = (long) " + result5);
+
+		float k = 25.5f;
+		float l = 5.1f;
+		float result6 = k / l;
+		// double result6 = k - l;
+		System.out.println("float / float = (float) " + result6);
+
+		double m = 230.0;
+		double n = 10.0;
+		double result7 = m / n;
+		System.out.println("double / double = (double) " + result7);
+
+		// We can't perform division operation on string and boolean
+
+		// String o = "Operators: ";		// Compile Time Error
+		// String p = "Addition";
+		// String result8 = o - p;
+		// System.out.println(result8);
+
+		// boolean q = true;				// Compile Time Error
+		// boolean r = true;
+		// boolean result9 = q + r;
+		// System.out.println(result9);
+	}
+}

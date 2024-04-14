@@ -1,0 +1,10 @@
+class ShortNarrowing 
+{
+	public static void main(String[] args) 
+	{
+		short s = 3000;
+
+		byte b = (byte)s;
+		System.out.println(b);			// -72
+	}
+}

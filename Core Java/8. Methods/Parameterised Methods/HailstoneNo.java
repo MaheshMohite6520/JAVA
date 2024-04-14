@@ -1,0 +1,26 @@
+class HailstoneNo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(isHailstone(7));
+	}
+
+	public static int isHailstone(int num)
+	{
+		int ct = 1;
+
+		while (num != 1)
+		{
+			if (num % 2 == 1)
+			{
+				num = (num * 3) + 1;
+				ct++;
+			}
+
+			num /= 2;
+			ct++;
+		}
+
+		return ct;
+	}
+}

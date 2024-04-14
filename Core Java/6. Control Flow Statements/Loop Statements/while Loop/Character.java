@@ -1,0 +1,15 @@
+class Character 
+{
+	public static void main(String[] args) 
+	{
+		char ch = 'A';
+
+		System.out.println("The alternate characters are: ");
+		
+		while (ch <= 'Z')
+		{
+			System.out.print(ch + " ");
+			ch++;
+		}
+	}
+}

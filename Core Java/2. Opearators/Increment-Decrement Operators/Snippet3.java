@@ -1,0 +1,17 @@
+class Snippet3 
+{
+	public static void main(String[] args) 
+	{
+		int a = 7, b = -13, c = 17, d;
+
+		d = ++a - -b - --c;
+		c = d-- + --b - --a;
+		a = c++ - b++ + d++;
+		b = ++b + c++ + ++a - --d;
+
+		System.out.println("a: " +a);
+		System.out.println("b: " +b);
+		System.out.println("c: " +c);
+		System.out.println("d: " +d);
+	}
+}

@@ -1,0 +1,27 @@
+class AbundantNo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(isAbundant(12));
+	}
+
+	public static boolean isAbundant(int num)
+	{
+		int sum = 0;
+
+		for (int i = 1; i <= num/2; i++)
+		{
+			if (num % i == 0)
+			{
+				sum += i;
+			}
+		}
+
+		if (sum > num)
+		{
+			return true;
+		}
+
+		return false;
+	}
+}

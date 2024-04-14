@@ -1,0 +1,68 @@
+import java.util.Scanner;
+
+class Primitive5 
+{
+    public static void main(String[] args) 
+	{
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        double d = sc.nextDouble();
+
+		System.out.println("Enter the format you want your output: ");
+
+		System.out.println("1. Float ");
+        System.out.println("2. Long ");
+        System.out.println("3. short ");
+        System.out.println("4. char ");
+        System.out.println("5. byte ");
+        System.out.println("6. int ");
+
+        int format = sc.nextInt();
+
+        switch (format) 
+		{
+            case 1: 
+			{
+                float f = (float) d;
+                System.out.println("Float value of " + d + " is: " + f);
+                break;
+            }
+            case 2: 
+			{
+                long l = (long) d;
+                System.out.println("Long value of " + d + " is: " + l);
+                break;
+            }
+            case 3: 
+			{
+                short s = (short) d;
+                System.out.println("Short value of " + d + " is: " + s);
+                break;
+            }
+            case 4: 
+			{
+                char ch = (char) d;
+                System.out.println("Character value of " + d + " is: " + ch);
+                break;
+            }
+            case 5: 
+			{
+                byte b = (byte) d;
+                System.out.println("Byte value of " + d + " is: " + b);
+                break;
+            }
+            case 6: 
+			{
+                int i = (int) d;
+                System.out.println("Integer value of " + d + " is: " + i);
+                break;
+            }
+            default:
+			{
+				System.out.println("Invalid format choice.");
+                break;
+			}
+        }
+    }
+}

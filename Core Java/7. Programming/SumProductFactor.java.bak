@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+class SumProductFactor 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+
+		int denominator = 1;
+		int product = 1;
+		int sum = 0;
+
+		while(denominator <= num/2)
+		{
+			if(num % denominator == 0)
+			{
+				product *= denominator;
+				sum += denominator;
+			}
+			denominator++;
+
+		}
+
+		System.out.println("Sum of factors of number " + num + " are: " + sum);
+		System.out.println("Product of factors of number " + num + " are: " + product);
+
+		if(product == sum)
+		{
+			System.out.println("Sum & product of number " + num + " is same.");
+		}
+		System.out.println("Sum & product of number " + num + " is not same.");
+	}
+}

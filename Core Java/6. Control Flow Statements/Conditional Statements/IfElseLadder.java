@@ -1,0 +1,44 @@
+import java.util.Scanner;
+
+class IfElseLadder 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter the marks: ");
+		int marks = sc.nextInt();
+
+		if (marks > 0)
+		{
+				if(marks < 35)
+			{
+				System.out.println("Fail");
+			}
+			else if(marks == 35)
+			{
+				System.out.println("Pass");
+			}
+			else if(marks > 35 && marks <= 60)
+			{
+				System.out.println("Second class");
+			}
+			else if(marks > 60  && marks <= 75)
+			{
+				System.out.println("First class");
+			}
+			else if(marks > 75  && marks <= 90)
+			{
+				System.out.println("First class with distinction");
+			}
+			else if(marks > 90  && marks <= 100)
+			{
+				System.out.println("Distinction");
+			}
+		}
+		else
+		{
+			System.out.println("Enter valid marks between 1 to 100.");
+		}
+	}
+}

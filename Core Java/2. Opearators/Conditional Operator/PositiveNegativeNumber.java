@@ -1,0 +1,10 @@
+class PositiveNegativeNumber 
+{
+	public static void main(String[] args) 
+	{
+		int number = 456;
+
+		String positiveNumber = number > 0 ? "Positive Number" : "Negative Number";
+		System.out.println(positiveNumber);
+	}
+}

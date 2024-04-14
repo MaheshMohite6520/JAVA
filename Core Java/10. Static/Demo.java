@@ -1,0 +1,31 @@
+public class Demo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("From main method of public class Demo");
+	}
+}
+
+class A
+{
+	public static void main()
+	{
+		System.out.println("From class A");
+	}
+}
+
+class B
+{
+	public static void main()
+	{
+		System.out.println("From class A");
+	}
+}
+
+class C
+{
+	public static void main()
+	{
+		System.out.println("From class A");
+	}
+}

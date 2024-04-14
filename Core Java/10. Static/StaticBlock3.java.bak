@@ -1,0 +1,9 @@
+class StaticBlock3 
+{
+	public static void main(String[] args) 
+	{
+		int num = StaticBlock2.sc.nextInt();
+		System.out.println("Enter a number: ");
+		System.out.println(num);
+	}
+}

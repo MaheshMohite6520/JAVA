@@ -1,0 +1,52 @@
+import java.util.Scanner;
+
+class FibonacciPrime
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+
+		int n1 = 0, n2 = 1, n3;
+
+		for (; ; )
+		{
+			if (num == n2)
+			{
+				int den;
+				for (den = 2; den < num; den++)
+				{
+					if (num % den == 0)
+					{
+						break;
+					}
+				}
+
+				if (num == den)
+				{
+					System.out.println("It is Prime-Fibonacci Number.");
+				}
+				else
+				{
+					System.out.println("It is Fibonacci Number but not Prime-Fibonacci Number.");
+				}
+
+				break;
+			}
+			else if (n1 > num)
+			{
+				System.out.println("It is not Fibonacci Number.");
+				break;
+			}
+			else
+			{
+				n3 = n1 + n2;
+
+				n1 = n2;
+				n2 = n3;
+			}
+		}
+	}
+}

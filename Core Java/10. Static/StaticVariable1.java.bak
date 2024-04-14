@@ -1,0 +1,14 @@
+class StaticVariable1 
+{
+	static double pi = pi();
+
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+
+	public static double pi()
+    {
+		return 22.0 / 7.0;
+	}
+}

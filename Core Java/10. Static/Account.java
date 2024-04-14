@@ -1,0 +1,58 @@
+class Account 
+{
+	static long accno = 9876543210l;
+	static int pin = 1234;
+	static double balance;
+
+	public static void main(String[] args) 
+	{
+		System.out.println(balance); // 0.0
+		System.out.println();
+
+		withdraw(9876543210l, 1234, 10000.00);
+		deposit(9876543210l, 1234, 20000.00);
+		withdraw(9876543210l, 1234, 10000.00);
+	}
+
+	public static void withdraw(long accno, int pin, double amount)
+	{
+		if (Account.accno == accno && Account.pin == pin && amount > 0)
+		{
+			System.out.println("Login Successful");
+
+			if (balance - amount >= 0)
+			{
+				balance = balance - amount;
+				System.out.println("Amount withdraw successfully");
+				System.out.println("Your available balance: " + balance);
+				System.out.println();
+			}
+			else
+			{
+				System.out.println("Insufficient balance");
+				System.out.println();
+			}
+		}
+		else
+		{
+			System.out.println("Invalid credentials");	
+			System.out.println();
+		}
+	}
+
+	public static void deposit(long accno, int pin, double amount)
+	{
+		if (Account.accno == accno && Account.pin == pin && amount > 0)
+		{
+			balance = balance + amount;
+			System.out.println("Amount deposited successfully");
+			System.out.println("Your available balanace is " + balance);
+			System.out.println();
+		}
+		else
+		{
+			System.out.println("Invalid credentials");
+			System.out.println();
+		}
+	}
+}

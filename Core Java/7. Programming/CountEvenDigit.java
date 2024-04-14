@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class CountEvenDigit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.print("Enter a number: ");
+		int num = sc.nextInt();
+
+		int evenCount = 0;
+		int oddCount = 0;
+
+		while(num > 0)
+		{
+			int rem = num % 10;
+
+			if(rem % 2 == 0) 
+			{
+				evenCount++;
+			}
+			else
+			{
+				oddCount++;
+			}
+
+			num /= 10;
+		}
+
+		System.out.println("Even digits in number: " + evenCount);
+		System.out.println("Odd digits in number: " + oddCount);
+	}
+}

@@ -1,0 +1,16 @@
+class Perfect 
+{
+	public static void main(String[] args) 
+	{
+		int num = 6;
+
+		if (Utility.sumOfFactor(num) == num)
+		{
+			System.out.println("Perfect Number");
+		}
+		else
+		{
+			System.out.println("Not Perfect Number");
+		}
+	}
+}

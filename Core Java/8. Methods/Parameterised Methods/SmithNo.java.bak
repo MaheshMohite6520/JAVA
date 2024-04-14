@@ -1,0 +1,62 @@
+class SmithNo 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println(isSmith(85));
+	}
+
+	public static int sumOfDigits(int num)
+	{
+		int sum = 0;
+		while (num != 0)
+		{
+			int last = num % 10;
+			sum += last;
+			num /= 10;
+		}
+
+		return sum;
+	}
+
+	public static boolean isPrime(int num)
+	{
+		int den;
+		for (den = 2; den < num; den++)
+		{
+			if (num % den == 0)
+			{
+				break;
+			}
+		}
+
+		return num == den;
+	}
+
+	public static boolean isSmith(int num)
+	{
+		int digitSum = sumOfDigits(num);
+
+		int factorSum = 0;
+
+		int den = 2;
+		while (num != 1)
+		{
+			if (num % den == 0)
+			{
+				num /= den;
+
+				if (isPrime(den))
+				{
+					factorSum += sumOfDigits(den);
+					den = 2;
+				}
+			}
+			else
+			{
+				den++;
+			}
+		}
+
+		return digitSum == factorSum;
+	}
+}

@@ -1,0 +1,37 @@
+class RangeArmstrongNumber  
+{
+	public static void main(String[] args) 
+	{
+		int start = 1;
+		int end = 10000;
+
+		for (; start <= end; start++)
+		{
+			int sum = 0;
+			int count = 0;
+
+			for (int i = start; i != 0; i /= 10)
+			{
+				count++;
+			}
+
+			for (int i = start; i != 0; i /= 10)
+			{
+				int last = i % 10;
+
+				int pow = 1;
+				for (int j = 0; j < count; j++)
+				{
+					pow *= last;
+				}
+
+				sum += pow;
+			}
+
+			if (sum == start)
+			{
+				System.out.println(start);
+			}
+		}
+	}
+}

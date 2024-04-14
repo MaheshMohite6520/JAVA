@@ -1,0 +1,39 @@
+class RangeGoodNo 
+{
+	public static void main(String[] args) 
+	{
+		int start = 1;
+		int end = 1000;
+
+		while (start <= end)
+		{
+			if (isGood(start))
+			{
+				System.out.println(start);
+			}
+
+			start++;
+		}
+	}
+
+	public static boolean isGood(int num)
+	{
+		int temp = num ;
+
+		while (temp != 0)
+		{
+			int last = temp % 10;
+
+			if (last == 0 || num % last == 0)
+			{
+				temp /= 10;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		return true;
+	}
+}

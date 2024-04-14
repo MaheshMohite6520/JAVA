@@ -1,0 +1,12 @@
+class Method1 
+{
+	public static void main(String[] args) 
+	{
+		print();
+	}
+
+	public static void print()
+	{
+		System.out.println("From Method-1");
+	}
+}
