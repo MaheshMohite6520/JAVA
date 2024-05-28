@@ -1,4 +1,4 @@
-class Goldbach 
+class NumberProcessor 
 {
 	public static void main(String[] args) 
 	{

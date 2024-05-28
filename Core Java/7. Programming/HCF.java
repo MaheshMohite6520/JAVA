@@ -14,7 +14,7 @@ class HCF
 
 		int min = n1 < n2 ? n1 : n2;
 
-		/*
+		
 		while (true)
 		{
 			if (n1 % min == 0 && n2 % min == 0)
@@ -24,8 +24,8 @@ class HCF
 			}
 			min--;
 		}
-		*/
-
+		
+		/*
 		for (; ; min--)
 		{
 			if (n1 % min == 0 && n2 % min == 0)
@@ -35,5 +35,6 @@ class HCF
 			}
 			min--;
 		}
+		*/
 	}
 }

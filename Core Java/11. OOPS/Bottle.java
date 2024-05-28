@@ -1,0 +1,23 @@
+//Object Creation - 1
+
+class Bottle 
+{
+	String brand;
+	double price;
+	double capacity;
+	String color;
+	String shape;
+	String material;
+	String type;
+
+	public void displayBottle()
+	{
+		System.out.println("Brand: " + brand);
+		System.out.println("Price: " + price);
+		System.out.println("Capacity: " + capacity);
+		System.out.println("Color: " + color);
+		System.out.println("Shape: " + shape);
+		System.out.println("Material: " + material);
+		System.out.println("Type: " + type);
+	}
+}

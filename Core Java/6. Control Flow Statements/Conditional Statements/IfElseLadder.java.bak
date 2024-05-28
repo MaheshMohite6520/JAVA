@@ -38,7 +38,7 @@ class IfElseLadder
 		}
 		else
 		{
-			System.out.println("Enter valid marks between 0 to 100.");
+			System.out.println("Enter valid marks between 1 to 100.");
 		}
 	}
 }

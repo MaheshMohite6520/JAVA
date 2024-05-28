@@ -38,7 +38,7 @@ class ArmStrong
 		for (int i = num; i != 0; i /= 10)
 		{
 			int rem = i % 10;
-			sum = sum + power(rem, ct);
+			sum += power(rem, ct);
 		}
 
 		return sum == num;

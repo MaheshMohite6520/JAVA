@@ -1,0 +1,13 @@
+class Demo8 
+{
+	public static void main(String[] args) 
+	{
+		in a,b,c = 100;
+
+		a = c = 200;
+
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+	}
+}

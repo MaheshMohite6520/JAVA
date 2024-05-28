@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Switch5 
@@ -62,7 +63,7 @@ class Switch5
 				System.out.print("Enter second number: ");
 				double num2  = sc.nextDouble();
 
-				System.out.println("How don you wnat your answer: ");
+				System.out.println("How don you want your answer: ");
 				System.out.println("1. Whole Number ");
 				System.out.println("2. Decimal Number ");
 

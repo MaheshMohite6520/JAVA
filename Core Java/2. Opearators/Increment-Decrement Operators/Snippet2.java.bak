@@ -4,6 +4,8 @@ class Snippet2
 	{
 		int p = -2, q = 8, r = p+q, s;
 
+		s = r++ + p++;
+
 		q++;
 
 		s = q--;

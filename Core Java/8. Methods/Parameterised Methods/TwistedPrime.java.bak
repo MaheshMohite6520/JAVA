@@ -15,21 +15,21 @@ class TwistedPrime
 		{
 			if (isPrime(rev))
 			{
-				System.out.println("Twisted Prime Number");
+				System.out.println("Twisted Prime-Number.");
 			}
 			else
 			{
-				System.out.println("Prime number but Not Twisted Prime Number");
+				System.out.println("Prime-Number but Not Twisted Prime-Number.");
 			}	
 		}
 		else
 		{
-			System.out.println("Not Prime Number");
+			System.out.println("Not Prime-Number.");
 		}
 	}
 
 	public static boolean isPrime(int num)
-	{23-03-2024
+	{
 		int i;
 		for (i = 2; i < num; i++)
 		{

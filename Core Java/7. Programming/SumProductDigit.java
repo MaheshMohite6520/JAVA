@@ -15,8 +15,10 @@ class SumProductDigit
 		while(num > 0)
 		{
 			int last = num % 10;
+
 			sum += last;
 			product *= last;
+
 			num /= 10;
 		}
 

@@ -1,0 +1,13 @@
+class PenDriver 
+{
+	public static void main(String[] args) 
+	{
+		Pen l1 = new Pen();
+		l1.displayPen();
+
+		System.out.println();
+
+		Pen l2 = new Pen("DELL", "Black", 60000.0, "Inspiron 15 3000");
+		l2.displayPen();
+	}
+}

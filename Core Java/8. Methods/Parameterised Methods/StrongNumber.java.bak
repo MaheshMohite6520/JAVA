@@ -30,7 +30,7 @@ class StrongNumber
 		while (num != 0)
 		{
 			int last = num % 10;
-			sum = sum + factorial(last);
+			sum += factorial(last);
 			num /= 10;
 		}
 

@@ -12,7 +12,7 @@ class Resume
 		System.out.println("Native Place : Kolhapur");
 		System.out.println("College Name : Dr. D Y Patil Pratishthan college of enginnering Salokhenager, Kolhapur.");
 		System.out.println("CGPA         : 7.5");
-		System.out.println("Hobbies      : Playing cricket & Watching cricket games, Playing Chess");
+		System.out.println("Hobbies      : Playing cricket, Watching cricket games & Playing Chess");
 		System.out.println("Goal         : Became a Software Developer");
 		System.out.println("Personal Goal: Buy Land Rover Defender Car");
 		

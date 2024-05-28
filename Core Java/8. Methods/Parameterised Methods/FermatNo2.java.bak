@@ -9,7 +9,7 @@ class FermatNo2
 	{
 		double pow = 1;
 
-		for (int i = raise; i > 0; i--) 
+		for (double i = raise; i > 0; i--) 
 		{
 			pow *= base;
 		}

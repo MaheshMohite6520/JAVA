@@ -9,7 +9,7 @@ class RotatedPrimeNo
 		System.out.print("Enter a Number: ");
 		int num = sc.nextInt();
 
-		System.out.println(isRotatedPrime(131));
+		System.out.println(isRotatedPrime(num));
 	}
 
 	public static boolean isRotatedPrime(int num)
@@ -77,6 +77,7 @@ class RotatedPrimeNo
 
 		return num == i;
 	}
+
 
 	/*
 	public static int rotate(int num)

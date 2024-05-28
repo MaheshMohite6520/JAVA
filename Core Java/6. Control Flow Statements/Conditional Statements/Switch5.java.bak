@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 class Switch5 
@@ -11,6 +12,9 @@ class Switch5
 		System.out.println();
 
 		System.out.println("Select the below option");
+
+		System.out.println();
+
 		System.out.println("Addition (+)");
 		System.out.println("Subtraction (-)");
 		System.out.println("Multiplication (*)");

@@ -18,6 +18,8 @@ class SumProductFactor
 			if(num % denominator == 0)
 			{
 				System.out.println(denominator);
+
+
 				product *= denominator;
 				sum += denominator;
 			}

@@ -20,7 +20,7 @@ class Intro
 		// sc.nextLine();	// for avoiding Buffer issue
 
 		System.out.print("Enter your college name: ");                                                  
-		char col = sc.nextLine().charAt(0);
+		String col = sc.nextLine();
 		
 		System.out.print("Enter your address: ");                                                  
 		String col2 = sc.nextLine();

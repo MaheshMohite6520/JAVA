@@ -2,7 +2,7 @@ class BinaryToDecimal
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(binToDec(1010));
+		System.out.println(binToDec(1011));
 	}
 
 	public static int binToDec(int num)

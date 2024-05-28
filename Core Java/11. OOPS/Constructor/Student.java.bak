@@ -1,0 +1,59 @@
+// Method Chaining
+
+class Student 
+{
+	String name;
+	int rollNo;
+	char div;
+	long phno;
+	int age;
+
+	Student()
+	{
+		System.out.println("From No-Argument Constructor");
+	}
+
+	Student(String name, int id, char div, long phno, int age)
+	{
+		this.name = name;
+		rollNo = id;
+		this.div = div;
+		this.phno = phno;
+		this.age = age;
+	}
+
+	public Student showName()
+	{
+		System.out.println(name);
+
+		return this;
+	}
+
+	public Student showId()
+	{
+		System.out.println(rollNo);
+
+		return this;
+	}
+
+	public Student showDivision()
+	{
+		System.out.println(div);
+
+		return this;
+	}
+
+	public Student showPhone()
+	{
+		System.out.println(phno);
+
+		return this;
+	}
+
+	public Student show()
+	{
+		System.out.println(age);
+
+		return this;
+	}
+}

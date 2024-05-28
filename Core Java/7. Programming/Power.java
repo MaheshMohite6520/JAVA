@@ -14,10 +14,20 @@ class Power
 
 		int power = 1;
 
+		/*
 		for(int i = 0; i < raise; i++)
 		{
 			power *= base;
 		}
+		*/
+
+		int i = 0;
+		while (i < raise)
+		{
+			power *= base;
+			i++;
+		}
+
 		System.out.println(power);
 	}
 }

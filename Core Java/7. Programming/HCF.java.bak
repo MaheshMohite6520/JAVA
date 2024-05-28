@@ -14,7 +14,19 @@ class HCF
 
 		int min = n1 < n2 ? n1 : n2;
 
+		/*
 		while (true)
+		{
+			if (n1 % min == 0 && n2 % min == 0)
+			{
+				System.out.println("The HCF of " + n1 + " & " + n2 + " is: " + min);
+				break;
+			}
+			min--;
+		}
+		*/
+
+		for (; ; min--)
 		{
 			if (n1 % min == 0 && n2 % min == 0)
 			{

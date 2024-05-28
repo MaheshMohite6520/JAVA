@@ -2,7 +2,7 @@ class RotateNo
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(rotate(1234));
+		System.out.println(rotate(32123));
 	}
 
 	public static int count(int num)
@@ -34,4 +34,20 @@ class RotateNo
 	{
 		return ((num % 10) * power(10, count(num) - 1) + (num /= 10));
 	}
+
+	/*
+	public static int rotate(int num)
+	{
+		int ans = 0;
+
+		int last = num % 10;
+		num /= 10;
+
+		int ct = count(num);
+		
+		ans = last * power(10, ct) + num;
+
+		return ans;
+	}
+	*/
 }

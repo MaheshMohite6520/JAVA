@@ -9,7 +9,14 @@ class StrongNumber
 		System.out.print("Enter a number: ");
 		int num = sc.nextInt();
 		
-		System.out.println(sum(num));
+		if (sum(num) == num)
+		{
+			System.out.println("Strong Number");
+		}
+		else
+		{
+			System.out.println("Not Strong Number");
+		}
 	}
 
 	public static int factorial(int num)
@@ -30,7 +37,7 @@ class StrongNumber
 		while (num != 0)
 		{
 			int last = num % 10;
-			sum = sum + factorial(last);
+			sum += factorial(last);
 			num /= 10;
 		}
 

@@ -2,7 +2,7 @@ class DisariumNo
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(isDisarium(89));
+		System.out.println(isDisarium(135));
 	}
 
 	public static int count(int num)

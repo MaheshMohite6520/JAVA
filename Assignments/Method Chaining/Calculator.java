@@ -1,0 +1,26 @@
+class Calculator 
+{
+	private double result;
+
+	Calculator(double initialValue)
+	{
+		this.result = initialValue;
+	}
+
+	Calculator add(double value)
+	{
+		result += value;
+		return this;
+	}
+
+	Calculator multiply(double value)
+	{
+		result *= value;
+		return this;
+	}
+
+	double getResult()
+	{
+		return result;
+	}
+}

@@ -6,7 +6,7 @@ class TwistedPrimeNumber
 	{
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
+        System.out.print("Enter a Number: ");
         int num = sc.nextInt();
 
         int den = 2;
@@ -42,16 +42,16 @@ class TwistedPrimeNumber
 
             if (rev == revDen) 
 			{
-                System.out.println(num + " Twisted prime number");
+                System.out.println(num + " Twisted Prime Number.");
             } 
 			else 
 			{
-                System.out.println(num + " is Prime Number but not a Twisted prime number");
+                System.out.println(num + " is Prime Number but Not a Twisted Prime Number.");
             }
         } 
 		else 
 		{
-            System.out.println(num + " is not a prime number");
+            System.out.println(num + " is Not a Prime Number.");
         }
     }
 }

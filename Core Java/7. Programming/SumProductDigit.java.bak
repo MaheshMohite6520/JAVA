@@ -26,8 +26,8 @@ class SumProductDigit
 
 		if(sum == product)
 		{
-			System.out.println("Sum of digits & product of number is same.");
+			System.out.println("Sum of Digits & Product of number is Same.");
 		}
-		System.out.println("Sum of digits & product of number is not same.");
+		System.out.println("Sum of Digits & Product of number is Not Same.");
 	}
 }

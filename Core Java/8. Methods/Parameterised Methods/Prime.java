@@ -22,6 +22,17 @@ class Prime
 				break;
 			}
 		}
+
+		/*
+		if (num == i)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		*/
 		
 		return num == i;
 	}

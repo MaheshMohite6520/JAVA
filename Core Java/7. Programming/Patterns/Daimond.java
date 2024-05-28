@@ -24,7 +24,7 @@ class Daimond
 				System.out.print("*" + " ");
 			}
 
-			
+			/*
 			if (i > n/2 - 1)
 			{
 				space++;
@@ -35,8 +35,9 @@ class Daimond
 				space--;
 				star += 2;
 			}
+			*/
 			
-			/*
+			
 			if (i < n/2)
 			{
 				space--;
@@ -47,7 +48,7 @@ class Daimond
 				space++;
 				star -= 2;
 			}
-			*/
+			
 
 			System.out.println();
 		}

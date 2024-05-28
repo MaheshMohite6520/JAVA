@@ -11,7 +11,7 @@ class IfElseLadder
 
 		if (marks > 0)
 		{
-				if(marks < 35)
+			if(marks < 35)
 			{
 				System.out.println("Fail");
 			}

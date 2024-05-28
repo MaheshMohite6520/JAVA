@@ -6,7 +6,7 @@ class TwistedPrime
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter a number: ");
+		System.out.print("Enter a Number: ");
 		int ip = sc.nextInt();
 
 		int rev = reverse(ip);
@@ -15,16 +15,16 @@ class TwistedPrime
 		{
 			if (isPrime(rev))
 			{
-				System.out.println("Twisted Prime Number");
+				System.out.println("Twisted Prime-Number.");
 			}
 			else
 			{
-				System.out.println("Prime number but Not Twisted Prime Number");
+				System.out.println("Prime-Number but Not Twisted Prime-Number.");
 			}	
 		}
 		else
 		{
-			System.out.println("Not Prime Number");
+			System.out.println("Not Prime-Number.");
 		}
 	}
 

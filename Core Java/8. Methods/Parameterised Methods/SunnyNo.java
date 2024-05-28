@@ -18,8 +18,6 @@ class SunnyNo
 			{
 				break;
 			}
-
-
 			else if (i * i > nextNum)
 			{
 				break;

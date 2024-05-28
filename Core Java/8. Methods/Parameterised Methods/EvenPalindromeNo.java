@@ -15,16 +15,16 @@ class EvenPalindromeNo
 		{
 			if (isEven(rev))
 			{
-				System.out.println("Even Palindrome number");
+				System.out.println("Even Palindrome-Number");
 			}
 			else
 			{
-				System.out.println("Palindrome Number but Not Even Palindrome number");
+				System.out.println("Palindrome Number but Not Even Palindrome-Number");
 			}
 		}
 		else
 		{
-			System.out.println("Not palindrome number");
+			System.out.println("Not Palindrome-Number");
 		}
 	}
 

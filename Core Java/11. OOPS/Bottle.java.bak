@@ -1,0 +1,21 @@
+class Bottle 
+{
+	String brand;
+	double price;
+	double cap;
+	String color;
+	String shape;
+	String material;
+	String type;
+
+	public void displayBottle()
+	{
+		System.out.println("brand: " + brand);
+		System.out.println("price: " + price);
+		System.out.println("capacity: " + cap);
+		System.out.println("color: " + color);
+		System.out.println("shape: " + shape);
+		System.out.println("material: " + material);
+		System.out.println("Type: " + type);
+	}
+}

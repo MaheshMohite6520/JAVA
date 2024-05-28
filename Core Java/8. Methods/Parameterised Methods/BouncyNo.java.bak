@@ -36,11 +36,15 @@ class BouncyNo
 			}
 		}
 
+		/*
 		if (increment == true && decrement == true)
 		{
 			return true;
 		}
 
 		return false;
+		*/
+
+		return increment && decrement;
 	}
 }

@@ -37,11 +37,11 @@ class MultiplePrograms
 
 			if(num == reverse)
 			{
-				System.out.println(num + " is Palindrome number");
+				System.out.println(num + " is Palindrome Number.");
 			}
 			else
 			{
-				System.out.println(num + " is not Palindrome number");
+				System.out.println(num + " is not Palindrome Number.");
 			}
 
 		}

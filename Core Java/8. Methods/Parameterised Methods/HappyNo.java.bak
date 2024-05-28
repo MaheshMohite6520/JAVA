@@ -2,9 +2,9 @@ class HappyNo
 {
 	public static void main(String[] args) 
 	{
-		// System.out.println(isHappy(19));
+		System.out.println(isHappy(19));
 
-		isHappy(5);
+		// isHappy(5);
 	}
 
 	public static int squareDigitSum(int num)

@@ -1,0 +1,11 @@
+// Constructor Chaining
+
+class Form2Driver 
+{
+	public static void main(String[] args) 
+	{
+		Form2 f2 = new Form2("Mahesh", "Kolhapur", "mahesh@gmail.com", 7682342343l, "O-", 6.2, 70);
+
+		f2.displayForm2();
+	}
+}

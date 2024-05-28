@@ -78,6 +78,7 @@ class RotatedPrimeNo
 		return num == i;
 	}
 
+
 	/*
 	public static int rotate(int num)
 	{

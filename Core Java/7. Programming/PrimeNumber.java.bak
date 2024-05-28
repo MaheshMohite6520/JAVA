@@ -6,7 +6,7 @@ class PrimeNumber
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter a number: ");
+		System.out.print("Enter a number: ");
 		int num = sc.nextInt();
 
 		int denominator = 2;
@@ -22,11 +22,11 @@ class PrimeNumber
 
 		if(num == denominator)
 		{
-			System.out.println(num + " is Prime number");
+			System.out.println(num + " is Prime Number.");
 		}
 		else
 		{
-			System.out.println(num + " is Not prime number");
+			System.out.println(num + " is Not Prime Number.");
 		}
 	}
 }

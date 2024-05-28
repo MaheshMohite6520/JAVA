@@ -26,11 +26,11 @@ class FibonacciDigit
 
 		if(isAllFibo)
 		{
-			System.out.println("It contains all fibonacci digits");
+			System.out.println("It contains all Fibonacci Digits.");
 		}
 		else
 		{
-			System.out.println("It does not contains all fibonacci digits");
+			System.out.println("It does not contains all Fibonacci Digits.");
 		}
 
 		

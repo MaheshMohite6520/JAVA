@@ -2,7 +2,7 @@ class GoodNo
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(isGood(40));
+		System.out.println(isGood(47));
 	}
 
 	public static boolean isGood(int num)
@@ -13,7 +13,7 @@ class GoodNo
 		{
 			int last = temp % 10;
 
-			if (last == 0 || num % last == 0)
+			if (last == 0 || temp % last == 0)
 			{
 				temp /= 10;
 			}

@@ -14,7 +14,7 @@ class SumOfSquareOFDigitOFnumber
 		while (num != 0)
 		{
 			int last = extractDigit(num);
-			sum = sum + square(last);
+			sum += square(last);
 			num /= 10;
 		}
 
@@ -23,13 +23,21 @@ class SumOfSquareOFDigitOFnumber
 
 	public static int extractDigit(int num)
 	{
+		/*
 		int last = num % 10;
 		return last;
+		*/
+
+		return num % 10;
 	}
 
 	public static int square(int num)
 	{
+		/*
 		int square = num * num;
 		return square;
+		*/
+
+		return num * num;
 	}
 }

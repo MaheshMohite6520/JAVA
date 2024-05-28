@@ -21,8 +21,12 @@ class FermatNo2
 	{
         for (double i = 0; i <= num; i++) 
 		{
+			/*
             double fermatNumber = fermat(i);
             System.out.println(fermatNumber);
+			*/
+
+			System.out.println(fermat(i));
         }
     }
 

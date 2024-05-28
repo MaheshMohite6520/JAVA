@@ -17,6 +17,7 @@ class SumOfDigits
 			sum += last;
 			num /= 10;
 		}
+
 		System.out.println("Sum of Digits of Number: " + sum);
 	}
 }

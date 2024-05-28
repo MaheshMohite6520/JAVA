@@ -1,0 +1,14 @@
+class PantDriver 
+{
+	public static void main(String[] args) 
+	{
+		Pant p1 = new Pant();
+		p1.displayPant();
+
+		Pant p1 = new Pant();
+		p1.displayPant();
+
+		Pant p1 = new Pant();
+		p1.displayPant();
+	}
+}

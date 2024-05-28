@@ -2,7 +2,7 @@ class EmripNo
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(isEmrip(17));
+		System.out.println(isEmrip(13));
 	}
 
 	public static int reverse(int num)

@@ -1,0 +1,13 @@
+class NotebookDriver 
+{
+	public static void main(String[] args) 
+	{
+		Notebook l1 = new Notebook();
+		l1.displayNotebook();
+
+		System.out.println();
+
+		Notebook l2 = new Notebook("American Touristee", "Black", 3000.0, "Backpacks");
+		l2.displayNotebook();
+	}
+}

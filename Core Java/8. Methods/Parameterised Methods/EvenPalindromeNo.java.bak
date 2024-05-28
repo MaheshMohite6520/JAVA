@@ -19,7 +19,7 @@ class EvenPalindromeNo
 			}
 			else
 			{
-				System.out.println("Palindrome number but Not Even Palindrome number");
+				System.out.println("Palindrome Number but Not Even Palindrome number");
 			}
 		}
 		else

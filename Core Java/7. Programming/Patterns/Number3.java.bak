@@ -20,7 +20,8 @@ class Number3
 
 			for (int j = 2; j <= i; j++)
 			{
-				prev += val--;
+				prev += val;
+				val--;
 				System.out.print(prev + " ");
 			}
 			System.out.println();

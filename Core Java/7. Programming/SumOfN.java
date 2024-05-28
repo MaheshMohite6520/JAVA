@@ -20,6 +20,7 @@ class SumOfN
 		}
 		*/
 
+		// Formula
 		int sum = n*(n+1) / 2;
 
 		System.out.println("Sum of 1 to " + n + " numbers: " + sum);

@@ -22,11 +22,11 @@ class PrimeNumber
 
 		if(num == denominator)
 		{
-			System.out.println(num + " is Prime number");
+			System.out.println(num + " is Prime Number.");
 		}
 		else
 		{
-			System.out.println(num + " is Not prime number");
+			System.out.println(num + " is Not Prime Number.");
 		}
 	}
 }

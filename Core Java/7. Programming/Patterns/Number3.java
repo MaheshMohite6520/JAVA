@@ -16,7 +16,7 @@ class Number3
 		for (int i = 1; i <= n; i++)
 		{
 			prev = i;
-			System.out.print(prev + " ");
+			System.out.print(prev + "  ");
 
 			for (int j = 2; j <= i; j++)
 			{
