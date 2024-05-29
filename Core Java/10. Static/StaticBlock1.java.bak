@@ -1,3 +1,5 @@
+// Static Blocks
+
 class StaticBlock1 
 {
 	static 
@@ -12,10 +14,11 @@ class StaticBlock1
 	
 	static
 	{
-		System.out.println("From static block-2");
+		System.out.println("From static block-3");
 	}
+
 	static
 	{
-		System.out.println("From static block-3");
+		System.out.println("From static block-2");
 	}
 }

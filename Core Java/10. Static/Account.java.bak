@@ -6,7 +6,7 @@ class Account
 
 	public static void main(String[] args) 
 	{
-		System.out.println(balance);
+		System.out.println("Avsilsble Balance: " + balance); // 0.0
 		System.out.println();
 
 		withdraw(9876543210l, 1234, 10000.00);
@@ -23,19 +23,23 @@ class Account
 			if (balance - amount >= 0)
 			{
 				balance = balance - amount;
-				System.out.println("Amount withdraw successfully");
-				System.out.println("Your available balance: " + balance);
+
+				System.out.println("Amount Withdraw Successfully");
+				System.out.println("Your available Balance: " + balance);
+
 				System.out.println();
 			}
 			else
 			{
-				System.out.println("Insufficient balance");
+				System.out.println("Insufficient Balance");
+
 				System.out.println();
 			}
 		}
 		else
 		{
-			System.out.println("Invalid credentials");	
+			System.out.println("Invalid credentials");
+			
 			System.out.println();
 		}
 	}
@@ -45,13 +49,16 @@ class Account
 		if (Account.accno == accno && Account.pin == pin && amount > 0)
 		{
 			balance = balance + amount;
+
 			System.out.println("Amount deposited successfully");
 			System.out.println("Your available balanace is " + balance);
+
 			System.out.println();
 		}
 		else
 		{
 			System.out.println("Invalid credentials");
+
 			System.out.println();
 		}
 	}

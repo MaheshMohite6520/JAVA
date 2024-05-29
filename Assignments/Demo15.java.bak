@@ -1,0 +1,14 @@
+class Demo15 
+{
+	public static void main(String[] args) 
+	{
+		if (false)
+		{
+			System.out.println("Hii");
+		}
+		else if (false)
+		{
+			Systm.out.println("Hello");
+		}
+	}
+}

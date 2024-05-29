@@ -33,6 +33,7 @@ class Utility
 		System.out.println(isFascinating(192));
 		System.out.println(isTwistedPrime(13));
 		System.out.println(isAutomorphic(80));
+		System.out.println(isGood(12));
 	}
 
 	public static int count(int num)

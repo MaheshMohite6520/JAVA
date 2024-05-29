@@ -6,11 +6,11 @@ class Abundent
 
 		if (Utility.sumOfFactor(num) > num)
 		{
-			System.out.println("Perfect Number");
+			System.out.println(num + " is Abundent Number");
 		}
 		else
 		{
-			System.out.println("Not Perfect Number");
+			System.out.println(num + " is Not Abundent Number");
 		}
 	}
 }

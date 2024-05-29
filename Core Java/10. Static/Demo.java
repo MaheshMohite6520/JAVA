@@ -1,8 +1,10 @@
+// Acheiving multiple classes  concept by using public class 
+
 public class Demo 
 {
 	public static void main(String[] args) 
 	{
-		System.out.println("From main method of public class Demo");
+		System.out.println("From main method of public class Demo.");
 	}
 }
 

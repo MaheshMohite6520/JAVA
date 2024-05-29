@@ -4,6 +4,6 @@ class StaticBlock3
 	{
 		System.out.println("Enter a number: ");
 		int num = StaticBlock2.sc.nextInt();
-		System.out.println(num);
+		System.out.println("Entered Number: " + num);
 	}
 }

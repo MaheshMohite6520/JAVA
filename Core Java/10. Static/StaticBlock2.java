@@ -8,29 +8,33 @@ class StaticBlock2
 	{
 		System.out.println("Global scanner in available");
 		sc = new Scanner(System.in);
+
+		System.out.println();
 	}
 
 	public static void main(String[] args) 
 	{
-		System.out.println("Enter first number: ");
+		System.out.print("Enter	First Number: ");
 		int num1 = sc.nextInt();
 
-		System.out.println("Enter second number: ");
+		System.out.print("Enter Second Number: ");
 		int num2 = sc.nextInt();
 
-		System.out.println(num1 + num2);
+		System.out.println("Sum of 2 Numbers: " + (num1 + num2));
+
+		System.out.println();
 
 		concat();
 	}
 
 	public static void concat()
 	{
-		System.out.println("Enter first name: ");
+		System.out.print("Enter First Name: ");
 		String fname = sc.next();
 
-		System.out.println("Enter last name: ");
+		System.out.print("Enter Last Name: ");
 		String lname = sc.next();
 
-		System.out.println(fname + " " + lname);
+		System.out.println("Concated String: " + fname + " " + lname);
 	}
 }
