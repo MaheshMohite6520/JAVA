@@ -8,8 +8,8 @@ class Bike
 	{
 		String brand = "GT Bike";
 
-		System.out.println(this.brand);
-		System.out.println(this.colour);
-		System.out.println(this.price);
+		System.out.println("Bike Brand: "+this.brand);
+		System.out.println("Color: "+this.colour);
+		System.out.println("Price: "+this.price);
 	}		
 }

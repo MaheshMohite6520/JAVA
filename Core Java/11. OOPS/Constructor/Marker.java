@@ -21,7 +21,8 @@ class Marker
 	Marker()
 	{
 		System.out.println(name);
-		System.out.println("From Marker Constructor");
+		System.out.println("From No-Argument Marker Constructor");
+		System.out.println();
 	}
 
 	// Parameterised Constructor
@@ -38,13 +39,15 @@ class Marker
 
 	public void displayMarker()
 	{
-		System.out.println(name);
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println();
+		System.out.println("Marker Name: "+name);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Marker Created!");
 	}
 
 	{
 		System.out.println("From Non-Static block 5");
+		System.out.println();
 	}
 }

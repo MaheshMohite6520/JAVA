@@ -3,7 +3,7 @@ class SackDriver
 	public static void main(String[] args) 
 	{
 		Sack l1 = new Sack();
-		l1.displayPen();
+		l1.displaySack();
 
 		System.out.println();
 

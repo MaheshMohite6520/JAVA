@@ -35,9 +35,10 @@ class Car
 
 	public void displayCar()
 	{
-		System.out.println(name);
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println();
+		System.out.println("Car Name: "+name);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Car Created!");
 	}
 }

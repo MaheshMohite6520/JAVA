@@ -2,18 +2,20 @@
 
 class Employee 
 {
+	// Mandatory Details
 	String name;
 	int empId;
 	double salary;
 	String dept;
 
+	// Optional Details
 	String blood;
 	double height;
 	int wt;
 
 	Employee()
 	{
-		System.out.println("From No-Argument Constructor");
+		System.out.println("From No-Argument Constructor!");
 	}
 
 	Employee(String name, int empId, double salary, String dept)
@@ -28,6 +30,11 @@ class Employee
 	{
 		this(name, empId, salary, dept);
 
+		// this.name = name;
+		// this.empId = empId;
+		// this.salary = salary;
+		// this.dept = dept;
+
 		this.blood = blood;
 
 		System.out.println("Form Generated!");
@@ -36,6 +43,12 @@ class Employee
 	Employee(String name, int empId, double salary, String dept, String blood, double height)
 	{
 		this(name, empId, salary, dept, blood);
+
+		// this.name = name;
+		// this.empId = empId;
+		// this.salary = salary;
+		// this.dept = dept;
+		// this.blood = blood;
 
 		this.height = height;
 
@@ -46,6 +59,13 @@ class Employee
 	{
 		this(name, empId, salary, dept, blood, height);
 
+		// this.name = name;
+		// this.empId = empId;
+		// this.salary = salary;
+		// this.dept = dept;
+		// this.blood = blood;
+		// this.height = height;
+
 		this.wt = wt;
 
 		System.out.println("Form Generated!");
@@ -53,12 +73,14 @@ class Employee
 
 	public void displayEmployee()
 	{
-		System.out.println(name);
-		System.out.println(empId);
-		System.out.println(salary);
-		System.out.println(dept);
-		System.out.println(blood);
-		System.out.println(height);
-		System.out.println(wt);
+		System.out.println("Employee Name: "+name);
+		System.out.println("ID: "+empId);
+		System.out.println("Salary: "+salary);
+		System.out.println("Department: "+dept);
+		System.out.println("Blood Group: "+blood);
+		System.out.println("Height: "+height);
+		System.out.println("Weight: "+wt);
+
+		System.out.println("Employee Created!");
 	}
 }

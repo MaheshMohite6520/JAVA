@@ -2,12 +2,12 @@ class BooksDriver
 {
 	public static void main(String[] args) 
 	{
-		Notebook l1 = new Notebook();
-		l1.displayNotebook();
+		Books l1 = new Books();
+		l1.displayBooks();
 
 		System.out.println();
 
-		Notebook l2 = new Notebook("Classmate", "White", 100.0);
-		l2.displayNotebook();
+		Books l2 = new Books("Red", 500.0, 150);
+		l2.displayBooks();
 	}
 }

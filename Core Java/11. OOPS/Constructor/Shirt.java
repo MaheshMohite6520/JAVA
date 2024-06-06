@@ -13,9 +13,11 @@ class Shirt
 
 	public void displayShirt()
 	{
-		System.out.println(color);
-		System.out.println(brand);
-		System.out.println(size);
-		System.out.println(price);
+		System.out.println("Shirt Color: "+color);
+		System.out.println("Brand: "+brand);
+		System.out.println("Size: "+size);
+		System.out.println("Price: "+price);
+
+		System.out.pritnln("Shirt Created!");
 	}
 }

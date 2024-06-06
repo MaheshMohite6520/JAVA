@@ -11,7 +11,7 @@ class Notebook
 	}
 
 	// Parameterised Constructor
-	Notebook(String brand, String color, double price,)
+	Notebook(String brand, String color, double price)
 	{
 		System.out.println("From Parameterised Constructor.");
 		this.brand = brand;

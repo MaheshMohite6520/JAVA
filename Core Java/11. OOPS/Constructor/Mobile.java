@@ -23,9 +23,11 @@ class Mobile
 
 	public void displayMobile()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println(name);
+		System.out.println("Mobile Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+		System.out.println("Model: "+name);
+
+		System.out.println("Mobile Created!");
 	}
 }

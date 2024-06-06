@@ -4,6 +4,12 @@ class ShirtDriver
 	{
 		Shirt s1 = new Shirt();
 
-		s1.displapShirt();
+		s1.displayShirt();
+
+		System.out.println("---------------------------------");
+
+		Shirt s1 = new Shirt("Green", "ZUDIO", 40, 600.0);
+
+		s1.displayShirt();
 	}
 }

@@ -4,10 +4,12 @@ class Towel
 	String color;
 	double price;
 
+	/*
 	Towel()
 	{
 		System.out.println("From No-Argument Constructor");
 	}
+	*/
 
 	Towel(String brand, String color, double price)
 	{
@@ -18,8 +20,10 @@ class Towel
 
 	public void displayTowel()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
+		System.out.println("Towel Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Towel Created!");
 	}
 }

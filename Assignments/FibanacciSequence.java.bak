@@ -1,0 +1,20 @@
+class FibanacciSequence 
+{
+	public static void main(String[] args) 
+	{
+		int terms = 8;
+
+		System.out.println("Fibanacci Sequence (First 8 Terms): ");
+
+		int firstTerm = 0;
+		int secondTerm = 1;
+
+		for (int i = 1; i <= terms; i++)
+		{
+			System.out.println(firstTerm + " ");
+			int nextTerm = firstTerm + secondTerm;
+			firstTerm = secondTerm;
+			secondTerm = nextTerm;
+		}
+	}
+}

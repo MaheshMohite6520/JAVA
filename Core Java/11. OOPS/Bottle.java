@@ -12,9 +12,9 @@ class Bottle
 
 	public void displayBottle()
 	{
-		System.out.println("Brand: " + brand);
+		System.out.println("Bottle Brand: " + brand);
 		System.out.println("Price: " + price);
-		System.out.println("Capacity: " + capacity);
+		System.out.println("Capacity (in Liter): " + capacity);
 		System.out.println("Color: " + color);
 		System.out.println("Shape: " + shape);
 		System.out.println("Material: " + material);

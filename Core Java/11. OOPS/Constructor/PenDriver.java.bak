@@ -7,7 +7,7 @@ class PenDriver
 
 		System.out.println();
 
-		Pen l2 = new Pen("DELL", "Black", 60000.0, "Inspiron 15 3000");
+		Pen l2 = new Pen("BIC Group", "Blue", 10.0, "Cello");
 		l2.displayPen();
 	}
 }

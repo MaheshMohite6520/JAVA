@@ -21,8 +21,10 @@ class Whiteboard
 
 	public void displayWhiteboard()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
+		System.out.println("Whiteboard Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Whiteboard Created!");
 	}
 }

@@ -5,9 +5,9 @@ class NotebookDriver
 		Notebook l1 = new Notebook();
 		l1.displayNotebook();
 
-		System.out.println();
+		System.out.println("------------------------------");
 
-		Notebook l2 = new Notebook("Classmate", "White", 100.0);
+		Notebook l2 = new Notebook("Goodluck", "White", 100.0);
 		l2.displayNotebook();
 	}
 }

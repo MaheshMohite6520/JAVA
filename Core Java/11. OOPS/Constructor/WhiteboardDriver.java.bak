@@ -7,7 +7,7 @@ class WhiteboardDriver
 
 		System.out.println();
 
-		Whiteboard l2 = new Whiteboard("Red", 500.0, 150);
+		Whiteboard l2 = new Whiteboard("Pragati Systems", "White", 5000.0);
 		l2.displayWhiteboard();
 	}
 }

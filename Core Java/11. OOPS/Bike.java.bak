@@ -2,7 +2,7 @@ class Bike
 {
 	String brand;
 	String colour;
-	String price;
+	double price;
 
 	public void displayBike()
 	{

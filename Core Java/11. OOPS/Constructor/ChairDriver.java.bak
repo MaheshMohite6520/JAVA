@@ -7,7 +7,7 @@ class ChairDriver
 
 		System.out.println();
 
-		Chair c2 = new Chair("DELL", "Black", 60000.0, "Inspiron 15 3000");
+		Chair c2 = new Chair("White", 600.0, 0.4);
 		c2.displayChair();
 	}
 }

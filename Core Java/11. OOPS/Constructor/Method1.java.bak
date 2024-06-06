@@ -7,7 +7,6 @@ class Method1
 		System.out.println("Hello World!");
 
 		main();
-
 	}
 
 	public static void main() 

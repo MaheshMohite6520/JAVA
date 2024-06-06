@@ -14,7 +14,7 @@ class Calculator
 		System.out.println("Addition of 3 int: " + add(12, 34, 56));
 		System.out.println("Addition of 3 doubles: " + add(1.24, 0.34, 5.6));
 
-
+		System.out.println("-----------------------------------------------");
 
 		// Subtraction
 		System.out.println();
@@ -22,35 +22,36 @@ class Calculator
 
 		System.out.println("Subtraction of 2 int: " + subtract(100, 20));
 		System.out.println("Subtraction of 2 double: " +subtract(22.8, 10.2));
-		System.out.println("Subtarction of double and char: " + subtract(22.0, 11.0, 10.0));
+		System.out.println("Subtarction of 3 double: " + subtract(22.0, 11.0, 10.0));
+		System.out.println("Subtarction of double and char: " + subtract('z', 11.0));
 
-
+		System.out.println("--------------------------------------------------");
 
 		// Multiplication
 		System.out.println();
 		System.out.println("Multiplication: ");
 
-		System.out.println(mul(10, 20));
-		System.out.println(mul(2.8, 1.2));
+		System.out.println("Multiplication of 2 int: " + mul(10, 20));
+		System.out.println("Mul tiplication of 2 doubles: " +mul(2.8, 1.2));
 	
-
+		System.out.println("--------------------------------------------------");
 
 
 		// Division
 		System.out.println();
 		System.out.println("Division: ");
 
-		System.out.println(div(100, 20));
-		System.out.println(div(8.8, 1.1));
+		System.out.println("Division of 2 int: " + div(100, 20));
+		System.out.println("Division of 2 doubles: " + div(8.8, 1.1));
 
-
+		System.out.println("-----------------------------------------------------");
 
 		// Modulus
 		System.out.println();
 		System.out.println("Modulus: ");
 
-		System.out.println(div(100, 20));
-		System.out.println(div(80.8, 1.12));
+		System.out.println("Modulus of 2 int: " + div(100, 20));
+		System.out.println("Modulus of 2 doubles: " + div(80.8, 1.12));
 	}
 
 	// 1. Addition ---->

@@ -15,13 +15,15 @@ class Pant
 
 	{
 		System.out.println("From Non-Static block 3");
+		System.out.println();
 	}
 
 	// No-Argument Constructor
 	Pant()
 	{
 		System.out.println(name);
-		System.out.println("From Pant Constructor");
+		System.out.println("From No-Argument Pant Constructor!");
+		System.out.println();
 	}
 
 	// Parameterised Constructor
@@ -34,9 +36,10 @@ class Pant
 
 	public void displayPant()
 	{
-		System.out.println(name);
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println();
+		System.out.println("Pant Brand: "+name);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Pant Created!");
 	}
 }

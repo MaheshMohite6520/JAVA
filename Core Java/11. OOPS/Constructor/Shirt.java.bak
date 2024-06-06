@@ -1,6 +1,5 @@
 class Shirt 
-{
-	
+{	
 	String color;
 	String brand;
 	int size;

@@ -6,6 +6,8 @@ class FruitDriver
 	{
 		Fruit f1 = new Fruit("Apple", 500.0, "Red", "Sweet");
 
-		f1.showName().showPrice();
+		// f1.showName().showPrice().showColor().showTaste();
+
+		// f1.showTaste().ShowName();	// CTE
 	}
 }

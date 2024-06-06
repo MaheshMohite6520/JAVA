@@ -22,29 +22,32 @@ class Fruit
 
 	public Fruit showName()
 	{
-		System.out.println(name);
-
+		System.out.println("Fruit Name: "+name);
 		return this;
 	}
 
 	public Fruit showPrice()
 	{
-		System.out.println(price);
-
+		System.out.println("Price: "+price);
 		return this;
 	}
 
 	public Fruit showColor()
 	{
-		System.out.println(color);
-
+		System.out.println("Color: "+color);
 		return this;
 	}
 
+	/*
 	public Fruit showTaste()
 	{
-		System.out.println(taste);
-
+		System.out.println("Taste: "+taste);
 		return this;
+	}
+	*/
+
+	public void showTaste()
+	{
+		System.out.println("Taste: "+taste);
 	}
 }

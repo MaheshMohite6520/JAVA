@@ -5,9 +5,9 @@ class NotebookDriver
 		Notebook l1 = new Notebook();
 		l1.displayNotebook();
 
-		System.out.println();
+		System.out.println("------------------------------");
 
-		Notebook l2 = new Notebook("American Touristee", "Black", 3000.0, "Backpacks");
+		Notebook l2 = new Notebook("Classmate", "White", 100.0);
 		l2.displayNotebook();
 	}
 }

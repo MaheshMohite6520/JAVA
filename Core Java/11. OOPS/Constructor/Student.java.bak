@@ -50,7 +50,7 @@ class Student
 		return this;
 	}
 
-	public Student show()
+	public Student showAge()
 	{
 		System.out.println(age);
 

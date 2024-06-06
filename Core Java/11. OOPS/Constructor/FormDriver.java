@@ -8,33 +8,49 @@ class FormDriver
 		Form f1 = new Form();
 		f1.displayForm();
 
+		System.out.println("---------------------------------------------------");
+
 		// This constructor accepts only mandatory feilds
 		Form f2 = new Form("Gaurav", "Nashik", "gaurav@gamil.com", 9112458099l);
 		f2.displayForm();
+
+		System.out.println("---------------------------------------------------");
 
 		// This constructor accepts all feilds
 		Form f3 = new Form("Mahesh", "Kolhapur", "mahesh@gamil.com", 7030116520l, "O-", 6.2, 70);
 		f3.displayForm();
 
+		System.out.println("---------------------------------------------------");
+
 		// This constructor accepts all mandatory feilds and blood group
 		Form f4 = new Form("Anish", "Kolhapur", "anish@gamil.com", 7030116520l, "A+");
 		f4.displayForm();
+
+		System.out.println("---------------------------------------------------");
 
 		// This constructor accepts all mandatory feilds and Height
 		Form f5 = new Form("Vishwajit", "Kolhapur", "vishwajit@gamil.com", 7030116520l, 5.7);
 		f5.displayForm();
 
+		System.out.println("---------------------------------------------------");
+
 		// This constructor accepts all mandatory feilds and Weight
 		Form f6 = new Form("Tejas", "Sangali", "tejas@gamil.com", 7030116520l, 65);
 		f6.displayForm();
+
+		System.out.println("---------------------------------------------------");
 
 		// This constructor accepts all mandatory feilds, Blood and Height
 		Form f7 = new Form("Prathmesh", "Kolhapur", "prathmesh@gamil.com", 7030116520l, "AB+", 5.8);
 		f7.displayForm();
 
+		System.out.println("---------------------------------------------------");
+
 		// This constructor accepts all mandatory feilds, Blood and Weight
 		Form f8 = new Form("Tejus", "Banglore", "tejus@gamil.com", 7030116520l, "AB+", 68);
 		f8.displayForm();
+
+		System.out.println("---------------------------------------------------");
 
 		// This constructor accepts all mandatory feilds, Height and Weight
 		Form f9 = new Form("Vinayak", "Kolhapur", "vinayak@gamil.com", 7030116520l, 5.9, 68);

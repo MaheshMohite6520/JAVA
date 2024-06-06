@@ -1,6 +1,6 @@
 class Car 
 {
-	String name = "Aston Martin";
+	String name = "Aston-Martin";
 	String color;
 	double price;
 

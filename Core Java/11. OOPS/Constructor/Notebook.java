@@ -21,8 +21,10 @@ class Notebook
 
 	public void displayNotebook()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
+		System.out.println("Notebook Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Notebook Created!");
 	}
 }

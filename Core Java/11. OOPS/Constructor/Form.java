@@ -128,13 +128,15 @@ class Form
 
 	public void displayForm()
 	{
-		System.out.println(name);
-		System.out.println(location);
-		System.out.println(email);
-		System.out.println(phno);
+		System.out.println("Name: "+name);
+		System.out.println("Location: "+location);
+		System.out.println("Email: "+email);
+		System.out.println("Mobile No: "+phno);
 
-		System.out.println(blood);
-		System.out.println(height);
-		System.out.println(wt);
+		System.out.println("Blood: "+blood);
+		System.out.println("Height: "+height);
+		System.out.println("Weight: "+wt);
+
+		System.out.println("Form Created!");
 	}
 }

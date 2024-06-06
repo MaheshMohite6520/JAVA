@@ -5,10 +5,9 @@ class MarkerDriver
 		Marker m1 = new Marker();
 		m1.displayMarker();
 
-		Marker m2 = new Marker();
-		m2.displayMarker();
+		System.out.println("-----------------------------");
 
-		Marker m3 = new Marker();
-		m3.displayMarker();
+		Marker m2 = new Marker("Camlin", "Green", 100.0);
+		m2.displayMarker();
 	}
 }

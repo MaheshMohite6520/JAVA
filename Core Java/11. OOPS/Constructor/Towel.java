@@ -1,3 +1,5 @@
+// When programmer provides parameterised constructor and forget to add No-Argument Constructor then compiler will not add default constructor!
+
 class Towel 
 {
 	String brand;
@@ -20,8 +22,10 @@ class Towel
 
 	public void displayTowel()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
+		System.out.println("Towel Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+
+		System.out.println("Towel Created!");
 	}
 }

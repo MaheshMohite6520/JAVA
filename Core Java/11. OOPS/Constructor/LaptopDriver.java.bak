@@ -2,12 +2,12 @@ class LaptopDriver
 {
 	public static void main(String[] args) 
 	{
-		Laptop m1 = new Laptop();
-		m1.displayLaptop();
+		Laptop l1 = new Laptop();
+		l1.displayLaptop();
 
 		System.out.println();
 
-		Laptop m2 = new Laptop("DELL", "Black", 60000.0, "Inspiron 15 3000");
-		m2.displayLaptop();
+		Laptop l2 = new Laptop("DELL", "Black", 60000.0, "Inspiron 15 3000");
+		l2.displayLaptop();
 	}
 }

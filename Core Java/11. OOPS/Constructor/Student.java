@@ -24,35 +24,35 @@ class Student
 
 	public Student showName()
 	{
-		System.out.println(name);
+		System.out.println("Name: "+name);
 
 		return this;
 	}
 
 	public Student showId()
 	{
-		System.out.println(rollNo);
+		System.out.println("Roll No: "+rollNo);
 
 		return this;
 	}
 
 	public Student showDivision()
 	{
-		System.out.println(div);
+		System.out.println("Division: "+div);
 
 		return this;
 	}
 
 	public Student showPhone()
 	{
-		System.out.println(phno);
+		System.out.println("Phone No: "+phno);
 
 		return this;
 	}
 
 	public Student showAge()
 	{
-		System.out.println(age);
+		System.out.println("Age: "+age);
 
 		return this;
 	}

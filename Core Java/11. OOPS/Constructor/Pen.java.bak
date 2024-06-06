@@ -21,11 +21,11 @@ class Pen
 		this.name = name;
 	}
 
-	public void displayLaptop()
+	public void displayPen()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println(name);
+		System.out.println("Pen Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+		System.out.println("Model: "+name);
 	}
 }

@@ -7,13 +7,14 @@ class Chair
 	// No Argument Constructor
 	Chair()
 	{
-		System.out.println("From No Arguments Constructor.");
+		System.out.println("From No-Arguments Constructor!");
 	}
 
 	// Parameterised Constructor
 	Chair(String color, double price, double weight)
 	{
-		System.out.println("From Parameterised Constructor.");
+		System.out.println("From Parameterised Constructor!");
+
 		this.color = color;
 		this.price = price;
 		this.weight = weight;
@@ -21,8 +22,10 @@ class Chair
 
 	public void displayChair()
 	{
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println(weight);
+		System.out.println("Chair Color: "+color);
+		System.out.println("Price: "+price);
+		System.out.println("Weight: "+weight);
+
+		System.out.println("Chair Created!");
 	}
 }

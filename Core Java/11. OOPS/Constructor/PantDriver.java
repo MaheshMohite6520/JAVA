@@ -5,10 +5,9 @@ class PantDriver
 		Pant p1 = new Pant();
 		p1.displayPant();
 
-		Pant p2 = new Pant();
-		p2.displayPant();
+		System.out.println("-------------------------------------");
 
-		Pant p3 = new Pant();
-		p3.displayPant();
+		Pant p2 = new Pant("ZUDIO", "Black", 800.0);
+		p2.displayPant();
 	}
 }

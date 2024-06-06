@@ -8,13 +8,13 @@ class Laptop
 	// No Argument Constructor
 	Laptop()
 	{
-		System.out.println("From No Arguments Constructor.");
+		System.out.println("From No Arguments Constructor!");
 	}
 
 	// Parameterised Constructor
 	Laptop(String brand, String color, double price, String name)
 	{
-		System.out.println("From Parameterised Constructor.");
+		System.out.println("From Parameterised Constructor!");
 		this.brand = brand;
 		this.color = color;
 		this.price = price;
@@ -23,9 +23,11 @@ class Laptop
 
 	public void displayLaptop()
 	{
-		System.out.println(brand);
-		System.out.println(color);
-		System.out.println(price);
-		System.out.println(name);
+		System.out.println("Laptop Brand: "+brand);
+		System.out.println("Color: "+color);
+		System.out.println("Price: "+price);
+		System.out.println("Model: "+name);
+
+		System.out.println("Laptop Created!");
 	}
 }
