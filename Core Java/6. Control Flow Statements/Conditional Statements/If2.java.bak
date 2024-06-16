@@ -11,8 +11,8 @@ class If2
 
 		if(age > 5) 
 		{
-			System.out.println("Paid the ticket fees");
+			System.out.println("Paid the ticket fees.");
 		}
-		System.out.println("Enter int he park");
+		System.out.println("Enter int he park.");
 	}
 }

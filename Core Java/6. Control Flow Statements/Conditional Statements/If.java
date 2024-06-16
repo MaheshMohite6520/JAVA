@@ -6,7 +6,7 @@ class If
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("You are paid student or not(enter true or false): ");
+		System.out.print("You are paid student or not (Only enter true or false): ");
 		boolean b = sc.nextBoolean();
 
 		if(b) 

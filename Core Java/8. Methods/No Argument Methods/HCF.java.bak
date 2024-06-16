@@ -23,7 +23,7 @@ class HCF
 		{
 			if (n1 % min == 0 && n2 % min == 0)
 			{
-				System.out.print(min);
+				System.out.print("HCF of " + n1 + " & " + n2 + ": " + min);
 				break;
 			}
 			min--;

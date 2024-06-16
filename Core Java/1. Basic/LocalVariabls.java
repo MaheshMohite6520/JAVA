@@ -6,7 +6,7 @@ class LocalVariabls
 			double d = 547.634;
 			System.out.println(d);
 
-			// char d = 'M';			// Compile Time Error
+			// char d = 'M';			// Compile Time Error : We can;t declare a same variable name in same block
 			// System.out.println(d);
 		}
 
@@ -16,7 +16,7 @@ class LocalVariabls
 		}
 
 		{
-			// boolean b ;				// Compile Time Error
+			// boolean b ;				// Compile Time Error : We can't use a variable without daclaring it
 			// System.out.println(b);
 		}
 	}

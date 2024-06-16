@@ -11,11 +11,11 @@ class IfElse1
 
 		if(pin == 1234)
 		{
-			System.out.println("Login succesful");
+			System.out.println("Login Succesful!");
 		}
 		else
 		{
-			System.out.println("Wrong Password. Login Unsuccesful");
+			System.out.println("Wrong Password, Login Unsuccesful!");
 		}
 	}
 }

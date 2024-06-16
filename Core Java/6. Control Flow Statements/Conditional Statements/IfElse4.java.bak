@@ -15,6 +15,10 @@ class IfElse4
 			{
 				System.out.println("It is an lowercase alphabet");
 			}
+			else
+			{
+				System.out.println("It is an uppercase alphabet");
+			}
 		}
 		else
 		{

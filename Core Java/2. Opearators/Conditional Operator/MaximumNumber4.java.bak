@@ -3,12 +3,12 @@ class MaximumNumber4
 	public static void main(String[] args) 
 	{
 		int number1 = 100;
-		int number2 = 200;
+		int number2 = 2700;
 		int number3 = 300;
 		int number4 = 400;
 
 
-		// Method-1
+		// Method-1 for 2 Numbers
 
 		// int big1 = number1 > number2 ? number1 : number2;
 		// int big2 = number3 > number4 ? number3 : number4;

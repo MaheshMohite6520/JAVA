@@ -16,7 +16,7 @@ class Switch2
 				System.out.println("From case-2");
 				break;
 			}
-			case "Tejas":
+			case "Ayush":
 			{
 				System.out.println("From case-3");
 				break;

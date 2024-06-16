@@ -12,6 +12,7 @@ class Relational
 		System.out.println(true != true);					// false
 		System.out.println("Hi" != "Bye");					// true
 		System.out.println("Hi" == "hi");					// false
+		System.out.println();
 		System.out.println(1.1f < 1.1);						// false 
 		System.out.println((22.0/7.0) > (22.0f/7.0f));		// true
 		System.out.println(22.0/7.0);						// 3.142857142857143

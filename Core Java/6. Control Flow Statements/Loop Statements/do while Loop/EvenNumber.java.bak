@@ -22,6 +22,6 @@ class EvenNumber
 			}
 			start++;
 		}
-		while (start < = end);
+		while (start <= end);
 	}
 }

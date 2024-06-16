@@ -3,6 +3,7 @@ class Increment
 	public static void main(String[] args) 
 	{
 		int pocket = 100;
+
 		System.out.println(++pocket);				// 101
 		System.out.println(++pocket);				// 102
 		System.out.println(pocket++);				// 102

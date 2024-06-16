@@ -12,6 +12,8 @@ class DynamicChar
 		System.out.print("Enter second character: ");
 		char ch2 = sc.next().charAt(0);
 
+		System.out.println("You have entered: ");
+
 		System.out.println("first character: " + ch1);
 		System.out.println("first character: " + ch2);
 	}

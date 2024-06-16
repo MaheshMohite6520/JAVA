@@ -2,7 +2,9 @@ class Switch1
 {
 	public static void main(String[] args) 
 	{
-		switch(1)
+		int ip = 5;
+
+		switch(ip)
 		{
 			case 1:
 			{

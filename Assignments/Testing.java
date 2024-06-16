@@ -1,0 +1,9 @@
+class Testing
+{
+	String s = "Hello";
+
+	public static void main(String[] args) 
+	{
+		System.out.println(Testing.s);
+	}
+}

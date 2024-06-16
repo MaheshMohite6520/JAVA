@@ -4,6 +4,8 @@ class DoubleNarrowing
 	{
 		double d = 1243.4578456;
 
+		// Without typecast operator it giver compile time error
+
 		// float f = d;
 		// System.out.println(f);		//  incompatible types: possible lossy conversion from double to float
 

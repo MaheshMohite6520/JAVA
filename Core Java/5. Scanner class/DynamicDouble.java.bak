@@ -9,8 +9,10 @@ class DynamicDouble
 		System.out.print("Enter first number: ");
 		double num1 = sc.nextDouble();
 
-		System.out.print("Enter first number: ");
+		System.out.print("Enter second number: ");
 		double num2 = sc.nextDouble();
+
+		System.out.println("Entered Numbers are: ");
 
 		double sum = num1 + num2;
 		System.out.println("Sum: " +sum);

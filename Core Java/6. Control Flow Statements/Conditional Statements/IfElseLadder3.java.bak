@@ -6,24 +6,24 @@ class IfElseLadder3
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter a number: ");
+		System.out.print("Enter a Number: ");
 		int number = sc.nextInt();
 
 		if(number == 0)
 		{
-			System.out.println("0 is not negative neither positive");
+			System.out.println("0 is not Negative neither Positive Number.");
 		}
 		else if(number > 0)
 		{
-			System.out.println("It is an positive number");
+			System.out.println("It is an Positive Number.");
 		}
 		else if(number < 0)
 		{
-			System.out.println("It is an negative number");
+			System.out.println("It is an Negative Number.");
 		}
 		else
 		{
-			System.out.println("Enter a valid input");
+			System.out.println("Enter a valid input.");
 		}
 	}
 }

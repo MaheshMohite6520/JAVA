@@ -15,10 +15,10 @@ class Switch5
 
 		System.out.println();
 
-		System.out.println("Addition (+)");
-		System.out.println("Subtraction (-)");
-		System.out.println("Multiplication (*)");
-		System.out.println("Division (/)");
+		System.out.println("+ (Addition)");
+		System.out.println("- (Subtraction)");
+		System.out.println(" * (Multiplication)");
+		System.out.println("/ (Division)");
 		System.out.println("Modulus (%)");
 
 		char ch = sc.next().charAt(0);
@@ -33,7 +33,7 @@ class Switch5
 				System.out.print("Enter second number: ");
 				double num2  = sc.nextDouble();
 
-				System.out.println("How don you wnat your answer: ");
+				System.out.println("How don you want your answer: ");
 				System.out.println("1. Whole Number ");
 				System.out.println("2. Decimal Number ");
 
@@ -63,7 +63,7 @@ class Switch5
 				System.out.print("Enter second number: ");
 				double num2  = sc.nextDouble();
 
-				System.out.println("How don you wnat your answer: ");
+				System.out.println("How don you want your answer: ");
 				System.out.println("1. Whole Number ");
 				System.out.println("2. Decimal Number ");
 

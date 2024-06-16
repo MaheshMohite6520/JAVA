@@ -18,7 +18,7 @@ class LCM
 		{
 			if ((max * i) % n1 == 0 && (max * i) % n2 == 0)
 			{
-				System.out.print(max);
+				System.out.print(max*i);
 				break;
 			}
 			i++;

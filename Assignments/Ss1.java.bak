@@ -1,0 +1,13 @@
+public class Ss1 extends Book
+{
+	public static void main(String[] args) 
+	{
+		String newTitle = "New Book Title";
+
+		Book myBook = new Book("Java Basics", new String[] {"Author A", "Author B"});
+
+		Book selectedBook = myBook;
+
+		selectedBook.setTitle(newTitle);
+	}
+}

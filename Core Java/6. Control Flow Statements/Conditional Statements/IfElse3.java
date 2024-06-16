@@ -11,11 +11,11 @@ class IfElse3
 
 		if(pin == 1010)
 		{
-			System.out.println("Transaction successful.");
+			System.out.println("Transaction Successful!");
 		}
 		else
 		{
-			System.out.println("Enter the correct pin.");
+			System.out.println("Enter the Correct Pin!");
 		}
 	}
 }

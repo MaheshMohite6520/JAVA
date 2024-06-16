@@ -29,7 +29,7 @@ class Switch3
 			case 'u':
 			{
 				System.out.println("From case-u");
-				break;
+				// break;
 			}
 			default:	
 			{

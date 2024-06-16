@@ -17,7 +17,7 @@ class IfElse2
 		}
 		else
 		{
-			System.out.println("Limit is 20000 Rs. Amount cannot be transfer.");
+			System.out.println("Transaction limit is 20000 Rs. Amount cannot be transfer.");
 		}
 	}
 }

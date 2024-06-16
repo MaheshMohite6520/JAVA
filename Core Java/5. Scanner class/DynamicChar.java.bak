@@ -9,7 +9,7 @@ class DynamicChar
 		System.out.print("Enter first character: ");
 		char ch1 = sc.next().charAt(0);
 
-		System.out.print("Enter first character: ");
+		System.out.print("Enter second character: ");
 		char ch2 = sc.next().charAt(0);
 
 		System.out.println("first character: " + ch1);

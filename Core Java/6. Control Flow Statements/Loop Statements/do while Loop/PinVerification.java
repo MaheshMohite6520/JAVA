@@ -12,19 +12,19 @@ class PinVerification
 
 		do
 		{
-			System.out.print("Enter your pin: ");
+			System.out.print("Enter your Pin: ");
 			int pin = sc.nextInt();
 
 			if(savedPin == pin)
 			{
-				System.out.println("Login succes");
+				System.out.println("Login Succes!");
 				break;
 			}
 			attempt++;
 
 			if(attempt < 3)
 			{
-				System.out.println("Incorrect pin! Please try again.");
+				System.out.println("Incorrect Pin! Please try again!");
 				System.out.println("Remaining Attempts are " + (3 - attempt));
 			}
 		}
@@ -32,7 +32,7 @@ class PinVerification
 
 		if(attempt == 3)
 		{
-			System.out.println("Maximun limit reached");
+			System.out.println("Maximun limit reached!");
 		}
 	}
 }

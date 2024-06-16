@@ -11,7 +11,7 @@ class Factorial
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter a number: ");
+		System.out.print("Enter a Number: ");
 		int num = sc.nextInt();
 
 		int fact = 1;

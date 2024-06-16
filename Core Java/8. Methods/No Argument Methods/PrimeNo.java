@@ -27,11 +27,11 @@ class PrimeNo
 
 		if (num == den)
 		{
-			System.out.println("Prime number");
+			System.out.println("Prime Number!");
 		}
 		else
 		{
-			System.out.println("Not Prime number");
+			System.out.println("Not Prime Number!");
 		}
 	}
 }

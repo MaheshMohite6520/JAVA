@@ -6,11 +6,13 @@ class DynamicBoolean
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter true or false: ");
+		System.out.print("Enter true or false for b1: ");
 		boolean b1 = sc.nextBoolean();
 
-		System.out.print("Enter true or false: ");
+		System.out.print("Enter true or false for b2: ");
 		boolean b2 = sc.nextBoolean();
+
+		System.out.println("You have Entered: ");
 
 		System.out.println("b1: " + b1);
 		System.out.println("b2: " + b2);

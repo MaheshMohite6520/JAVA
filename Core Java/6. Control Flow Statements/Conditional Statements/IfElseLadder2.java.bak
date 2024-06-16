@@ -11,7 +11,14 @@ class IfElseLadder2
 
 		if(ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z')
 		{
-			System.out.println("It is an alphabet");
+			if (ch >= 'a' && ch <= 'z')
+			{
+				System.out.println("It is an Lowercase Alphabet!");
+			}
+			else
+			{
+				System.out.println("It is an Uppercase Alphabet!");
+			}
 		}
 		else
 		{

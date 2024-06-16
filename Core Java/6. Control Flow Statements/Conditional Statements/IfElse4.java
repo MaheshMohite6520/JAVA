@@ -13,16 +13,16 @@ class IfElse4
 		{
 			if(ch >= 'a' && ch <= 'z')
 			{
-				System.out.println("It is an lowercase alphabet");
+				System.out.println("It is an Lowercase Alphabet");
 			}
 			else
 			{
-				System.out.println("It is an uppercase alphabet");
+				System.out.println("It is an Uppercase Alphabet");
 			}
 		}
 		else
 		{
-			System.out.println("It is not an alphabet");
+			System.out.println("It is not an Alphabet");
 		}
 		
 	}

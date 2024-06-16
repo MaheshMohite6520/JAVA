@@ -1,3 +1,5 @@
+// We can give $ as class name
+
 class $ 
 {
 	public static void main(String[] args) 

@@ -9,6 +9,6 @@ class Distance
 
 		int noOfSteps = (int) (distanceInMeter / stepDistanceInMeter) ;
 
-		System.out.println("Approximate number of steps to complete " + distanceInKm + "km"+ " are " + noOfSteps);
+		System.out.println("Approximate number of steps to complete " + distanceInKm + "km"+ " are: " + noOfSteps);
 	}
 }

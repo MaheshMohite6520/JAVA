@@ -11,10 +11,10 @@ class HCF
 	{
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("Enter first number: ");
+		System.out.print("Enter First Number: ");
 		int n1 = sc.nextInt();
 		
-		System.out.print("Enter second number: ");
+		System.out.print("Enter Second Number: ");
 		int n2 = sc.nextInt();
 
 		int min = n1 < n2 ? n1 : n2;

@@ -2,7 +2,7 @@ class Switch1
 {
 	public static void main(String[] args) 
 	{
-		int ip = 1;
+		int ip = 5;
 
 		switch(ip)
 		{
@@ -28,7 +28,7 @@ class Switch1
 			}
 			default:	
 			{
-				System.out.println("From default");
+				System.out.println("From Default Block");
 			}
 		}
 	}

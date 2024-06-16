@@ -13,6 +13,6 @@ class If2
 		{
 			System.out.println("Paid the ticket fees.");
 		}
-		System.out.println("Enter int he park.");
+		System.out.println("Enter inside the park.");
 	}
 }

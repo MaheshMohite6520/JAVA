@@ -2,7 +2,7 @@ class CountDigits
 {
 	public static void main(String[] args) 
 	{
-		System.out.println(countDigits(123));
+		System.out.println(countDigits(123111));
 	}
 
 	public static int countDigits(int num) 

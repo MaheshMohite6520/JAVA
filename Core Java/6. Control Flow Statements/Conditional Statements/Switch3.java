@@ -33,7 +33,7 @@ class Switch3
 			}
 			default:	
 			{
-				System.out.println("From default");
+				System.out.println("From Default Block");
 			}
 		}
 	}

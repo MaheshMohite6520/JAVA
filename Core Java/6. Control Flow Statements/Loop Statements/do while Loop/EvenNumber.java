@@ -12,7 +12,7 @@ class EvenNumber
 		System.out.print("Enter ending number: ");
 		int end = sc.nextInt();
 
-		System.out.println("The even numbers between " + start + " and " + end + " are: ");
+		System.out.println("The Even numbers between " + start + " and " + end + " are: ");
 
 		do
 		{
